@@ -143,7 +143,13 @@ const Timeline = () => {
             CSS
           </Badge>
           <Badge pill className="main-badge mr-2 mb-2">
+            Bootstrap
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
             Javascript
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            jQuery
           </Badge>
           <Badge pill className="main-badge mr-2 mb-2">
             RESTful APIs
