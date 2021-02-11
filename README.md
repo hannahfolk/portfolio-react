@@ -1,5 +1,6 @@
 # React Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/67f1bc4a-2bb6-49e9-9e82-c9a4a2d5b1c1/deploy-status)](https://app.netlify.com/sites/hannahfolkcodes/deploys)
 ![GitHub repo size](https://img.shields.io/github/repo-size/hannahfolk/portfolio-react)
 ![GitHub contributors](https://img.shields.io/github/contributors/hannahfolk/portfolio-react)
 ![GitHub stars](https://img.shields.io/github/stars/hannahfolk/portfolio-react?style=social)
