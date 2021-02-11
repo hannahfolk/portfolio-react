@@ -32,6 +32,7 @@
 
 - [React](https://reactjs.com/)
 - [Font Awesome](https://fontawesome.com/)
+- [Iconify](https://iconify.design/)
 - [React Bootstrap](https://react-bootstrap.github.io/)
 - [React Scroll](https://www.npmjs.com/package/react-scroll)
 - [React Switch](https://www.npmjs.com/package/react-switch)
