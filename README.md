@@ -51,7 +51,7 @@ This project uses the [MIT][license-url] license.
 
 ## Acknowledgements
 
-- [Dorota1997](https://github.com/Dorota1997/react-frontend-dev-portfolio)
+- [Dorota1997 - React Frontend Dev Portfolio](https://github.com/Dorota1997/react-frontend-dev-portfolio)
 
 [repo-size-shield]: https://img.shields.io/github/repo-size/hannahfolk/portfolio-react
 [contributors-shield]: https://img.shields.io/github/contributors/hannahfolk/portfolio-react
