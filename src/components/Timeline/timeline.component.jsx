@@ -19,6 +19,50 @@ const Timeline = () => {
         icon={
           <img
             className="vertical-timeline-element-icon"
+            src="./images/hearful.png"
+            alt="Heareful"
+          />
+        }
+      >
+        <div style={{ textAlign: "left", marginBottom: "4px" }}>
+          February 2021 - Present
+        </div>
+
+        <h3
+          className="vertical-timeline-element-title"
+          style={{ textAlign: "left" }}
+        >
+          Junior Backend Engineer
+        </h3>
+        <h4
+          className="vertical-timeline-element-subtitle"
+          style={{ textAlign: "left" }}
+        >
+          Hearful Hub
+        </h4>
+        <p>
+          Creating Scrapy spiders using Python and placing info into MongoDB for
+          data analysis
+        </p>
+        <div style={{ textAlign: "left", marginTop: "15px" }}>
+          <Badge pill className="main-badge mr-2 mb-2">
+            Python
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            MongoDB
+          </Badge>
+        </div>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        iconStyle={{
+          background: "#3c4d5a",
+          color: "#fff",
+          textAlign: "center",
+        }}
+        icon={
+          <img
+            className="vertical-timeline-element-icon"
             src="./images/trilogy.png"
             alt="Trilogy Education"
           />
