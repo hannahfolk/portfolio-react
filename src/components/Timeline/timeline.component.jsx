@@ -19,6 +19,60 @@ const Timeline = () => {
         icon={
           <img
             className="vertical-timeline-element-icon"
+            src="./images/vuori.png"
+            alt="Vuori"
+          />
+        }
+      >
+        <div style={{ textAlign: "left", marginBottom: "4px" }}>
+          January 2022 - Present
+        </div>
+        <h3
+          className="vertical-timeline-element-title"
+          style={{ textAlign: "left" }}
+        >
+          Frontend Engineer
+        </h3>
+        <h4
+          className="vertical-timeline-element-subtitle"
+          style={{ textAlign: "left" }}
+        >
+          Vuori Clothing
+        </h4>
+        <p>
+          Currently loving working at Vuori, growing more and more each day as I
+          learn more about our code base and the different apps we use to
+          improve{" "}
+          <a href="https://vuoriclothing.com" target="_blank">
+            vuoriclothing.com
+          </a>
+          .
+        </p>
+        <div style={{ textAlign: "left", marginTop: "15px" }}>
+          <Badge pill className="main-badge mr-2 mb-2">
+            React
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            Shopify
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            AWS
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            Algolia
+          </Badge>
+        </div>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        iconStyle={{
+          background: "#3c4d5a",
+          color: "#fff",
+          textAlign: "center",
+        }}
+        icon={
+          <img
+            className="vertical-timeline-element-icon"
             src="./images/hearful.png"
             alt="Heareful"
           />
@@ -27,12 +81,11 @@ const Timeline = () => {
         <div style={{ textAlign: "left", marginBottom: "4px" }}>
           February 2021 - Present
         </div>
-
         <h3
           className="vertical-timeline-element-title"
           style={{ textAlign: "left" }}
         >
-          Junior Backend Engineer
+          Full Stack Engineer
         </h3>
         <h4
           className="vertical-timeline-element-subtitle"
@@ -41,8 +94,10 @@ const Timeline = () => {
           Hearful Hub
         </h4>
         <p>
-          Creating Scrapy spiders using Python and placing info into MongoDB for
-          data analysis
+          I grew and learned a lot at my first full-time job as an engineer,
+          coding out Scrapy spiders using Python, and enhancing my React skills
+          by building out user interfaces for our clients to interact with the
+          data we scraped.
         </p>
         <div style={{ textAlign: "left", marginTop: "15px" }}>
           <Badge pill className="main-badge mr-2 mb-2">
@@ -50,6 +105,64 @@ const Timeline = () => {
           </Badge>
           <Badge pill className="main-badge mr-2 mb-2">
             MongoDB
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            React
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            AWS Serverless
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            AWS Amplify
+          </Badge>
+        </div>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        iconStyle={{
+          background: "#3c4d5a",
+          color: "#fff",
+          textAlign: "center",
+        }}
+        icon={
+          <img
+            className="vertical-timeline-element-icon"
+            src="./images/curative.png"
+            alt="Curative"
+          />
+        }
+      >
+        <div style={{ textAlign: "left", marginBottom: "4px" }}>
+          November 2021 - March 2022
+        </div>
+        <h3
+          className="vertical-timeline-element-title"
+          style={{ textAlign: "left" }}
+        >
+          Contract Frontend Engineer
+        </h3>
+        <h4
+          className="vertical-timeline-element-subtitle"
+          style={{ textAlign: "left" }}
+        >
+          Curative
+        </h4>
+        <p>
+          I redesigned portions of{" "}
+          <a href="https://curative.com" target="_blank">
+            curative.com
+          </a>{" "}
+          as needed and also aided in their migration to Contentful.
+        </p>
+        <div style={{ textAlign: "left", marginTop: "15px" }}>
+          <Badge pill className="main-badge mr-2 mb-2">
+            React
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            Contentful
+          </Badge>
+          <Badge pill className="main-badge mr-2 mb-2">
+            Styled Components
           </Badge>
         </div>
       </VerticalTimelineElement>
@@ -69,9 +182,8 @@ const Timeline = () => {
         }
       >
         <div style={{ textAlign: "left", marginBottom: "4px" }}>
-          March 2020 - Present
+          March 2020 - May 2022
         </div>
-
         <h3
           className="vertical-timeline-element-title"
           style={{ textAlign: "left" }}
@@ -85,9 +197,9 @@ const Timeline = () => {
           Trilogy Education
         </h4>
         <p>
-          I love tutoring as it allows me to give back to my community, while I
-          solidify concepts and discover new things working with students who
-          come from a variety of skill levels and backgrounds.
+          I loved tutoring as it allowed me to give back to my community, while
+          I solidified concepts and discover new things working with students
+          who come from a variety of skill levels and backgrounds.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -108,7 +220,6 @@ const Timeline = () => {
         <div style={{ textAlign: "left", marginBottom: "4px" }}>
           May 2020 - October 2020
         </div>
-
         <h3
           className="vertical-timeline-element-title"
           style={{ textAlign: "left" }}
@@ -156,7 +267,6 @@ const Timeline = () => {
         <div style={{ textAlign: "left", marginBottom: "4px" }}>
           September 2019 - March 2020
         </div>
-
         <h3
           className="vertical-timeline-element-title"
           style={{ textAlign: "left" }}
@@ -233,7 +343,6 @@ const Timeline = () => {
         <div style={{ textAlign: "left", marginBottom: "4px" }}>
           June 2019 - May 2019
         </div>
-
         <h3
           className="vertical-timeline-element-title"
           style={{ textAlign: "left" }}

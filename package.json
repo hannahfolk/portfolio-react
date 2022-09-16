@@ -47,6 +47,6 @@
     "@iconify-icons/logos": "^1.1.6",
     "@iconify/icons-logos": "^1.0.12",
     "@iconify/react": "^1.1.4",
-    "node-sass": "^4.14.1"
+    "sass": "^1.42.1"
   }
 }
