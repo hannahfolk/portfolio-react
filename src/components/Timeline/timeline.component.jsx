@@ -43,7 +43,11 @@ const Timeline = () => {
           Currently loving working at Vuori, growing more and more each day as I
           learn more about our code base and the different apps we use to
           improve{" "}
-          <a href="https://vuoriclothing.com" target="_blank">
+          <a
+            href="https://vuoriclothing.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             vuoriclothing.com
           </a>
           .
@@ -149,7 +153,11 @@ const Timeline = () => {
         </h4>
         <p>
           I redesigned portions of{" "}
-          <a href="https://curative.com" target="_blank">
+          <a
+            href="https://curative.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             curative.com
           </a>{" "}
           as needed and also aided in their migration to Contentful.
